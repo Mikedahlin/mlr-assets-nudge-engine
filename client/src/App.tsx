@@ -11,7 +11,7 @@ import Kira from "./pages/Kira";
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
+      <Route path={"/"} component={Kira} />
       <Route path={"/hobbies"} component={Hobbies} />
       <Route path={"/kira"} component={Kira} />
       <Route path={"/404"} component={NotFound} />
